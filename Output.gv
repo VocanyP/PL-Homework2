@@ -1,0 +1,22 @@
+// DeBruijn Tree
+digraph {
+	l0 [label=l]
+	l0 -> a3
+	a3 [label=a]
+	a3 -> a5
+	a5 [label=a]
+	a5 -> 17
+	17 [label=1]
+	a5 -> a9
+	a9 [label=a]
+	a9 -> l10
+	l10 [label=l]
+	l10 -> l12
+	l12 [label=l]
+	l12 -> 014
+	014 [label=0]
+	a9 -> 118
+	118 [label=1]
+	a3 -> 121
+	121 [label=1]
+}

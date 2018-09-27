@@ -1,0 +1,5 @@
+// DeBruijn Tree
+digraph {
+	l0 [label=l]
+	l0 -> l3
+}
